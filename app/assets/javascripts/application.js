@@ -14,10 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 
-//= require Aeasel
-//= require Btween
-//= require Csound
-//= require Dpreload
-//= require Emin
+//= require easel
+//= require tween
+//= require sound
+//= require preload
+//= require min
 
 //= require pong
