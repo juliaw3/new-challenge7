@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+        <javascript_include_tag "pong" %>
+
+<h1>The Pong Game</h1>
+        <body onload = "Main();">
+        <canvas id="PongStage" width="480" height="320"></canvas> </body>
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pongs.each do |pong| %>
+      <tr>
+        <td><%= link_to 'Show', pong %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
